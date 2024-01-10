@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e9ecef;
+}
+
+.topnav {
+    text-align: right;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navs {
+    color: #358f80;
+}
+
+.container {
+    display: inline;
+}
+@media screen and (max-width: 1000px) {
+    /* Aturan CSS untuk layar dengan lebar maksimum 768px */
+    /* Misalnya, untuk mengubah kolom menjadi full width pada layar kecil */
+    .col-3, .col-4, .col-5 {
+        width: 100%;
+    }
+}
